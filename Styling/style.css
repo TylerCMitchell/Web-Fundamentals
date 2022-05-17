@@ -1,0 +1,29 @@
+h1 {
+    background-color: black;
+    color: white;
+    font-family: Gill Sans, sans-serif;
+    font-size: 40pt;
+}
+
+span {
+    color: aqua;
+}
+
+h2 {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 25pt;
+}
+
+h3 {
+    background-color: lightskyblue;
+    color: blueviolet;
+    text-align: right;
+    text-decoration: underline;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 15pt;
+}
