@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, serif;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-card {
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    border: solid darkgrey 2px;
+    position: absolute;
+    margin: 150px;
+}
+
+.top-bar {
+    height: 75px;
+    width: 600px;
+    background-color: #17a2b8;
+}
+
+#user-pic {
+    height: 80px;
+    width: 80px;
+    border: solid 3px lightgray;
+    border-radius: 100%;
+    margin-top: -40px;
+    padding: 0%;
+    margin-left: 20px;
+}
+
+#location {
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 15px;
+    width: 10px;
+}
+
+.details1 {
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.profile-details {
+    margin-left: 20px;
+}
+
+#settings {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+.details2 {
+    margin-top: 20px;
+    font-size: smaller;
+}
