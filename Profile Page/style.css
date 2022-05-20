@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.navbar {
+    padding: 10px 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-links > ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.nav-title {
+    color: white;
+    margin: 20px;
+    font-size: 1.5rem;
+}
+.btn {
+    height: 30px;
+    width: 85px;
+    color: white;
+    background-color: #17a2b8;
+    border: solid black 1px;
+}
+li > a {
+    display: flex;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    margin: 10px 20px;
+}
+.cont1 {
+    width: 700px;
+    height: 500px;
+    margin: 40px auto;
+    display: flex;
+}
+.box1 {
+    flex: 1.7;
+    display: flex;
+    flex-direction: column;
+}
+.main-card {
+    background-color: white;
+    border: solid darkgrey 5px;
+    position: relative;
+}
+.top-bar {
+    height: 75px;
+    background-color: #17a2b8;
+}
+#user-pic {
+    height: 80px;
+    width: 80px;
+    border: solid 3px lightgray;
+    border-radius: 100%;
+    margin-top: -40px;
+    padding: 0%;
+    margin-left: 20px;
+}
+#location {
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 15px;
+    width: 10px;
+}
+#settings {
+    height: 15px;
+    width: 15px;
+    margin-top: 20px;
+}
+.details2 {
+    margin-top: 20px;
+    font-size: smaller;
+    display: flex;
+}
+.details1 {
+    font-size: larger;
+    margin-bottom: 50px;
+}
+.profile-details {
+    margin-left: 20px;
+}
+.profile-details {
+    padding: 5px;
+    font-weight: bold;
+}
+h1 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+#location {
+    display: inline;
+    margin-right: 10px;
+}
+p {
+    display: inline;
+}
+.first {
+    margin-left: 10px;
+}
+.second {
+    color: darkgray;
+    margin: 10px;
+}
+.third {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+a.edpro {
+    display: block;
+    margin: 20px;
+}
+.education {
+    border: solid darkgray 5px;
+}
+.edtitle {
+    color: white;
+}
+.education.edu {
+    margin: 5px;
+}
+.box2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.connreq {
+    border: solid darkgray 5px;
+    flex: 1;
+    background-color: white;
+}
+.yourconn {
+    border: solid darkgray 5px;
+    flex: 1.5;
+}
+.card, .education, .connreq, .yourconn {
+    margin: 20px 10px;
+}
+.topnav {
+    height: 40px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+.num2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px 5px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.num500 {
+    height: 30px;
+    border-radius: 40%;
+    margin: 5px 5px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conntitle1, .conntitle2 {
+    background-color: #333333;
+    color: white;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.conntitle2 {
+    margin: 0;
+    margin-top: 10px;
+}
+.upnav {
+    background-color: #333333;
+    display: flex;
+    height: 40px;
+}
+.img-small > img {
+    border-radius: 50%;
+    width: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.cont2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.img-border {
+    border: solid black 1px;
+}
+.num500 {
+    width: 70px;
+    border-radius: 50%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+.view-more {
+    border: solid gray 2px;
+}
+.view-more > a {
+    color: blue;
+    text-decoration: underline;
+}
