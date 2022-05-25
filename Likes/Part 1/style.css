@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+.usercard {
+    background-color: white;
+    border: solid black 4px;
+    margin: 40px;
+    height: 80px;
+    width: 375px;
+    padding: 20px;
+}
+.topinfo {
+    display: flex;
+    justify-content: space-between;
+}
+.username {
+    margin-top: 2px;
+}
+.grouplikes {
+    display: flex;
+}
+.likebtn {
+    height: 30px;
+    width: 50px;
+    background-color: yellow;
+    border: solid black 2px;
+    box-shadow: 3px 3px black;
+}
+.likes {
+    margin: 5px 20px 0px 0px;
+}
+
+#likegrow {
+    margin: 5px 5px 0px 0px;
+}
+.userinfo {
+    margin-top: 30px;
+    align-items: center;
+    font-weight: bold;
+}

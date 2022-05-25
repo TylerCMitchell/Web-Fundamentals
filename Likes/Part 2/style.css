@@ -1,0 +1,115 @@
+* {
+    margin: 0px 40px 0px 40px;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar {
+    background-color: black;
+    padding: 10px 0px;
+    align-items: center;
+}
+.navTitle {
+    margin: 0px;
+}
+.title1 {
+    color: white;
+    font-weight: lighter;
+}
+.feedTitle {
+    margin-top: 10px;
+    height: 50px;
+    text-align: center;
+    font-weight: lighter;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.col1 {
+    margin: 10px 0px;
+    flex: 1;
+}
+.profilebox {
+    background-color: white;
+    border: solid black 4px;
+    height: 250px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    justify-content: space-around;
+}
+.profileimg {
+    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+}
+.addav {
+    padding: 0px;
+    width: 100px;
+    align-items: center;
+}
+.addav > a {
+    margin: 0px 2px 0px -10px;
+    width: 200px;
+    height: 20px;
+    padding-right: 15px;
+}
+.profilebox > h2 {
+    margin: -10px 0px 10px 20px;
+    width: 200px;
+}
+.col2 {
+    margin: 0px;
+    flex: 2;
+}
+.usercard {
+    background-color: white;
+    border: solid black 4px;
+    margin: 10px 0px;
+    margin-left: 0px;
+    height: 105px;
+    width: 500px;
+    padding: 20px 0px 10px 0px;
+}
+.topinfo {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 0px -15px;
+}
+.bottominfo {
+    margin: 0px 0px 0px -15px;
+}
+.username {
+    margin-left: 0px;
+}
+.grouplikes {
+    display: flex;
+    margin: 0px 40px 0px;
+}
+.likebtn {
+    margin: 0px -20px 0px 0px;
+    height: 30px;
+    width: 60px;
+    background-color: yellow;
+    border: solid black 3px;
+    box-shadow: 3px 3px black;
+}
+.likes {
+    margin: 5px 20px 0px 0px;
+}
+
+#likegrow {
+    margin: 5px 5px 0px 0px;
+}
+#likebrow {
+    margin: 5px 5px 0px 0px;
+}
+#likecrow {
+    margin: 5px 5px 0px 0px;
+}
+.userinfo {
+    margin-top: 30px;
+    align-items: center;
+    font-weight: bold;
+}

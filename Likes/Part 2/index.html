@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Part 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navTitle"><h1 class="title1">Network</h1></div>
+    </div>
+    <h1 class="feedTitle">Your Feed</h1>
+    <div class="container">
+      <div class="col1">
+        <div class="profilebox">
+          <img
+            class="profileimg"
+            src="/Users/tylermitchell/Desktop/CodingDojo/Web-Fundamentals/Likes/Part 2/images/user-circle.png"
+            alt="user-circle"
+          />
+          <div class="addav"><a href="#">Add an avatar</a></div>
+          <h2>James Doe</h2>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="usercard">
+          <div class="topinfo">
+            <div class="username"><h2>Neil M</h2></div>
+            <div class="grouplikes">
+              <h3 id="likegrow">9</h3>
+              <h3 class="likes">like(s)</h3>
+              <button class="likebtn" id="likeamount" onclick="addlike()">
+                Like
+              </button>
+            </div>
+          </div>
+          <div class="bottominfo">
+            <p class="userinfo">
+              I just set up this new discord bot, let me know what you all
+              think.<a href="#">link</a>
+            </p>
+          </div>
+        </div>
+        <div class="usercard">
+          <div class="topinfo">
+            <div class="username"><h2>Nichole K</h2></div>
+            <div class="grouplikes">
+              <h3 id="likebrow">12</h3>
+              <h3 class="likes">like(s)</h3>
+              <button class="likebtn" id="likeamount" onclick="addhike()">
+                Like
+              </button>
+            </div>
+          </div>
+          <div class="bottominfo">
+            <p class="userinfo">
+              Just finished my<a href="#">next comic,</a>check it out.
+            </p>
+          </div>
+        </div>
+        <div class="usercard">
+          <div class="topinfo">
+            <div class="username"><h2>Jim R</h2></div>
+            <div class="grouplikes">
+              <h3 id="likecrow">9</h3>
+              <h3 class="likes">like(s)</h3>
+              <button class="likebtn" id="likeamount" onclick="addbike()">
+                Like
+              </button>
+            </div>
+          </div>
+          <div class="bottominfo">
+            <p class="userinfo">
+              I can't stop listening to the<a href="#">new album.</a>Who else is
+              liking it?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
